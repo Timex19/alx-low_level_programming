@@ -1,18 +1,33 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * main - main function
- * Description - Print combination fo two different numbers
- * Return: 0
- */
+ * main - Entry point
+ *
+ * Description: prints Holberton, will be using putchar
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	int i;
-	char hbtn[] = "Holberton\n";
+	/**
+	 * we declare our str char array of size 10
+	 * and an int ch which is 0
+	*/
+	char str[10] = "Holberton";
+	int ch = 0;
 
-	for (i = 0; i <= 9; i++)
+	/**
+	 * print each character from our str array
+	 * which is contains 8 characters
+	*/
+	while (ch < 9)
 	{
-		_putchar(hbtn[i]);
+		_putchar(str[ch]);
+		ch++;
 	}
+
+	/*place a new line after looping through our charcters*/
+	_putchar('\n');
 	return (0);
 }
