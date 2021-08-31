@@ -1,34 +1,25 @@
-#include"holberton.h"
-#include"main.h"
+#include "notrebloh.h"
 
 /**
- * main - Entry point
+ * main - Entry Point.use only defined variable to create output.
  *
- * Description: prints Holberton, will be using putchar
+ * Description: Print notrebloh using predefined functions
  *
- * Return: Always 0 (Success)
-*/
+ * Return: 0
+ */
 
 int main(void)
 {
-	/**
-	 * we declare our str char array of size 10
-	 * and an int ch which is 0
-	*/
-	char str[10] = "Holberton";
-	int ch = 0;
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchur('\n');
 
-	/**
-	 * print each character from our str array
-	 * which is contains 8 characters
-	*/
-	while (ch < 9)
-	{
-		_putchar(str[ch]);
-		ch++;
-	}
-
-	/*place a new line after looping through our charcters*/
-	_putchar('\n');
 	return (0);
-}
+} 
