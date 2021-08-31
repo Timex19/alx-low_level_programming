@@ -1,20 +1,17 @@
-#include <stdio.h>
-#include "holberton.h"
 #include "main.h"
-
 /**
- * main - main function
- * Description - Print combination fo two different numbers
- * Return: 0
+ *main - entry point.
+ *Description: program starts and ends here.
+ *Return: 0 on success.
  */
 int main(void)
 {
-	int i;
-	char hbtn[] = "Holberton\n";
-
-	for (i = 0; i <= 9; i++)
-	{
-		_putchar(hbtn[i]);
-	}
-	return (0);
+char text[9] = "Holberton";
+int i;
+for (i = 0; i < 9; i++)
+{
+_putchar(text[i]);
+}
+_putchar('\n');
+return (0);
 }
