@@ -1,19 +1,20 @@
-#include <stdio.h>
 #include "holberton.h"
-
 /**
- * main - main function
- * Description - Print combination fo two different numbers
+ * main - Entry block
+ * Description: prints holberton on new line
  * Return: 0
  */
 int main(void)
 {
-	int i;
-	char hbtn[] = "Holberton\n";
+	char c[10] = "Holberton";
 
-	for (i = 0; i <= 9; i++)
+	int i = 0;
+
+	while (i < 9)
 	{
-		_putchar(hbtn[i]);
+		_putchar(c[i]);
+		i++;
 	}
+	_putchar('\n');
 	return (0);
 }
