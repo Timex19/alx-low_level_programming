@@ -1,33 +1,24 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * main - Entry point
+ * main - check the code for ALX School students.
  *
- * Description: prints Holberton, will be using putchar
+ * Program that prints Holberton, followed by a new line
  *
- * Return: Always 0 (Success)
-*/
+ * Return: always 0 (success)
+ */
 
 int main(void)
 {
-	/**
-	 * we declare our str char array of size 10
-	 * and an int ch which is 0
-	*/
-	char str[10] = "Holberton";
-	int ch = 0;
+	char s[] = "_putchar";
+	int i = 0;
 
-	/**
-	 * print each character from our str array
-	 * which is contains 8 characters
-	*/
-	while (ch < 9)
+	while (s[i] != '\0')
 	{
-		_putchar(str[ch]);
-		ch++;
+		_putchar(s[i]);
+		i++;
 	}
+	_putchar(10);
 
-	/*place a new line after looping through our charcters*/
-	_putchar('\n');
 	return (0);
 }
