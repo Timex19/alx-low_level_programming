@@ -3,7 +3,7 @@
 
 /*
  * File: main.h
- * Auth: Abinet Tesfu
+ * Auth: Ojo Timilehin
  * Desc: Header file containing declarations for all functions
  *       used in the 0x02-functions_nested_loops directory.
  */
